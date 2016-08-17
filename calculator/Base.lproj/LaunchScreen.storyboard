@@ -20,13 +20,43 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchbg" translatesAutoresizingMaskIntoConstraints="NO" id="Xa7-qk-kz3">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchground" translatesAutoresizingMaskIntoConstraints="NO" id="1QS-bL-llt">
+                                <rect key="frame" x="0.0" y="472" width="600" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="03D-gd-Hh6"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="robot" translatesAutoresizingMaskIntoConstraints="NO" id="u7c-El-Jqs">
+                                <rect key="frame" x="180" y="220" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Qyg-Sb-LQ9"/>
+                                    <constraint firstAttribute="height" constant="128" id="ZSv-Nm-qHx"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Retro-Calc" translatesAutoresizingMaskIntoConstraints="NO" id="3Qs-Hy-jMd">
+                                <rect key="frame" x="180" y="56" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="TTX-Vu-NE9"/>
+                                    <constraint firstAttribute="width" constant="240" id="bgf-Wq-0Ea"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="3Qs-Hy-jMd" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="36" id="1s5-zp-JOR"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Xa7-qk-kz3" secondAttribute="bottom" id="IZ2-Vn-7ke"/>
+                            <constraint firstItem="u7c-El-Jqs" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="MC8-h1-bel"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1QS-bL-llt" secondAttribute="bottom" id="O4Q-JS-Mze"/>
+                            <constraint firstAttribute="trailing" secondItem="1QS-bL-llt" secondAttribute="trailing" id="PjB-ZF-0TF"/>
                             <constraint firstItem="Xa7-qk-kz3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="THV-9Q-h7h"/>
+                            <constraint firstItem="1QS-bL-llt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="TQd-qA-089"/>
+                            <constraint firstItem="3Qs-Hy-jMd" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="TsT-EB-Tjk"/>
+                            <constraint firstItem="1QS-bL-llt" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Xy6-30-RIj"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="1QS-bL-llt" secondAttribute="bottom" id="h10-Zs-xai"/>
                             <constraint firstItem="Xa7-qk-kz3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="kmS-eW-KZu"/>
                             <constraint firstAttribute="trailing" secondItem="Xa7-qk-kz3" secondAttribute="trailing" id="lle-YO-Ybt"/>
+                            <constraint firstAttribute="trailing" secondItem="1QS-bL-llt" secondAttribute="trailing" id="p61-Cz-Gig"/>
+                            <constraint firstItem="u7c-El-Jqs" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="zFX-Dq-FJW"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -36,6 +66,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Retro-Calc" width="755" height="111"/>
         <image name="launchbg" width="1433" height="957"/>
+        <image name="launchground" width="999" height="225"/>
+        <image name="robot" width="786" height="402"/>
     </resources>
 </document>
